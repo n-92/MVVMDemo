@@ -52,7 +52,7 @@ namespace Chap1
         #endregion
     }
 
-    public class Product : Notifier
+    public class Product : Notifier //this Notifier can be safely removed since the ViewModel already inherits from the Notifier
     {
         private string title;
 
